@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+.navbar{
+    border-radius: 1.5em;
+    margin-left: 2rem;
+    display: flex;
+    width:90%;
+    align-items: center;
+    justify-content: space-between;
+    color:blanchedalmond;
+    background:  linear-gradient(35deg,rgb(187, 194, 196), rgb(122, 163, 177), rgb(133, 193, 213));
+    row-gap: 1em;
+    height:2.7em;
+    padding: 1rem;
+    box-shadow:3rem,(rgba(11, 11, 10, 0.482));
+    position: relative;
+
+    top:0;
+   
+    /* background-image: url(../Navbar/32.jpg); */
+}
+.header{
+    background-image:url("../Navbar/32.jpg");
+    object-fit: cover;
+    margin-top: 0;
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+.navbar ul{
+    display:flex;
+    justify-content: center;
+    font-size: 1.3em;
+    gap:1.3em;
+    list-style: none;
+    
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    margin-left: 17rem;
+}
+.navbar a{
+text-decoration: none;
+font-size: 1.2em;
+text-align: center;
+color:rgb(40, 34, 34);
+
+overflow: hidden;
+
+}
+.navbar .heading{
+ font-size: 2em;
+ font-style:italic, sans-serif;
+}
+.navbar li a:hover 
+{
+    transition: all 400ms ease-out;
+    color:white;
+    font-weight: 300;
+
+   overflow:hidden;
+}
+.Click{
+    color: brown;
+}
+.active{
+   content: none;
+   background-color: rgb(227, 199, 158);
+    color:whitesmoke;
+    margin-left:20%;
+    height:2.8px;
+    width:60%;
+    bottom:-5px;
+}
+

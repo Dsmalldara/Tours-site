@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+.header{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    box-sizing: border-box;
+   position: relative;
+}
+
+.home{
+    
+   
+}
+.animate{
+font-size: 4rem;
+font-family:'Courier New', Courier, monospace;
+font-weight: 200;
+color: rgb(70, 151, 116);
+}
+
+.animateX{
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 150;
+
+}
+.body p{
+    font-size: 30px;
+    margin-top: 0;
+}
+.p-body{
+    margin-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    width:7em;
+    height:2.6rem;
+
+    border: 2px solid rgb(47, 77, 75);
+    font-size:17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    box-shadow: 3px black;
+    font-style: italic;
+     /* background: linear-gradient(35deg, blanchedalmond, burlywood, whitesmoke);  */
+     background:  linear-gradient(35deg,rgb(187, 194, 196), rgb(122, 163, 177), rgb(133, 193, 213)); 
+}
+.btn:hover{
+    background-color:transparent;
+    transition:all 300ms ease-in;
+    color:rgb(150, 97, 29);
+    font-size: 17px;
+}
