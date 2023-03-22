@@ -1,10 +1,46 @@
-h2{
-margin-bottom: 10rem;
-font-size:30px;
-}
-.head{
+.Destination{
     font-size: 30px;
-    color:rgb(47, 63, 58);
+    color:rgb(51, 57, 55);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 16rem;
+    margin-top: 3rem;
+    width: 90%;
+}
+.travel-btn{
+    font-weight: 300;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 6px, 10px, rgb(0,0,0,0.15);
+    text-decoration: none;
+    margin-top: 6rem;
+    background-color: transparent;
+    padding: 5px,6px;
+
+}
+.Destination{
+    width:90%;
+}
+.Destination h1{
+    font-size: 3rem;
+}
+.destination-malaysia{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 4rem;
+}
+.malaysia-word{
+    text-align: start;
+    width: 45%;
+    margin-left: 1rem;
+}
+.t-img{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+.t-img image{
+    width: 46%;
 }

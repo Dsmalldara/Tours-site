@@ -23,6 +23,9 @@ font-size: 4rem;
 font-family:'Courier New', Courier, monospace;
 font-weight: 200;
 color: rgb(70, 151, 116);
+background-color: rgb(5, 65, 44);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .animateX{
